@@ -6,7 +6,7 @@ body{
 .contenedor{
     min-width: 1200px;
     
-    background-color: #888888;
+    background-color:white;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -96,7 +96,7 @@ body{
 
 .footer{
     height: 200px;
-    background-color: yellowgreen;
+    background-color: #EDC809;
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -113,19 +113,19 @@ body{
 .col-3{
     width: 33.08%;
     height: 470px;
-    background-color: rgb(80, 82, 81);
+    background-color: #FAA503;
     display: inline-block;
     padding: -15px;
-    margin-top: 5px;
+    margin: 5px 4px 0;
     text-align: center;
 }
 .col-5{
-    width: 19%;
+    width: 33%;
     height: 470px;
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color: rgb(255, 177, 148);
+    background-color: #FBBE4E;
 }
 .news-text1{
     background-image: url("moto.jpg");
@@ -133,6 +133,15 @@ body{
     text-align: justify;
     width: 100%;
     padding: 1em 0;
+}
+.news-text2{
+    
+    color: white;
+    text-align: justify;
+    width: 100%;
+    padding-right: 20px;
+    
+    
 }
 
 .contenedorfoto{
@@ -143,7 +152,7 @@ body{
     
 
 }
-.foto{
+/* .foto{
     background-image: url("IMG_0394.jpg");
     background-size: 100% 100% ;
     background-position: center;
@@ -153,17 +162,14 @@ body{
     height:90px ;
     padding: 1em 0;
 
-}
+} */
 
 .news-info{
     width: 90%;
     text-align: justify;
     margin: 15px 4px 15px;
 }
-.service-content{
-    padding: 0.5em 0;
-   
-}
+
 .service-text{
     padding: 10px;
     text-align: justify;
@@ -179,7 +185,7 @@ body{
 }
 .news{
     width: 100%;
-    background-color: cadetblue;
+    background-color: white;
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -193,7 +199,7 @@ body{
 .news-data{
     width: 100%;
     height: 100%;
-    background-color: rebeccapurple;
+    background-color: #FAB136;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; 
@@ -258,4 +264,11 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+#team{
+    display: flex;
+}
+#services{
+    background-color: white;
+    display: flex;
 }
